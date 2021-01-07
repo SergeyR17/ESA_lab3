@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header th:insert="blocks/header-main :: header"></header>
+    <img src="//i2.wp.com/java-master.com/wp-content/uploads/2018/08/REST-JPA-Main.png?fit=756%2C343&amp;ssl=1" class="attachment-gist-large-thumb size-gist-large-thumb wp-post-image jetpack-lazy-image jetpack-lazy-image--handled" alt="REST-JPA-Main" srcset="https://i2.wp.com/java-master.com/wp-content/uploads/2018/08/REST-JPA-Main.png?w=756&amp;ssl=1 756w, https://i2.wp.com/java-master.com/wp-content/uploads/2018/08/REST-JPA-Main.png?resize=300%2C136&amp;ssl=1 300w" data-lazy-loaded="1" sizes="(max-width: 756px) 100vw, 756px" width="756" height="343">
+
+    <div th:insert="blocks/footer-main :: footer"></div>
+</body>
+</html>
